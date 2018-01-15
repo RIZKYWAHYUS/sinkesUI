@@ -17,7 +17,7 @@
  <div class="container-fluid">
     <div class="row">
         <div class="col-lg-3" style="width:23.5%; background-color : black; height : 100vh; z-index : -1; margin-top: -20px; position: fixed; " >
-    
+            
         </div>
     </div>
  </div>
