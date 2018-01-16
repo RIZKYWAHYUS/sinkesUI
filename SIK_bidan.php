@@ -1,7 +1,7 @@
  
                 <div class="row text-center">
                     <h2 class="judulRegistrasi"><b>Form Permohonan</b></h2>
-                    <h2 class="nomartop judulRegistrasi"><b>Surat Izin Kerja Perawat</b></h2>                    
+                    <h2 class="nomartop judulRegistrasi"><b>Surat Izin Kerja Bidan</b></h2>                    
                 </div>
 
                 <div class="row">
@@ -9,18 +9,18 @@
                         <form class="form-horizontal" action="/">
                        
                         <?php include('form-umum.php');?>
-                        
-                            <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">No SIP / STR :</label>
+
+                        <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">No SIB :</label>
                                 <div class="col-sm-8"> 
-                                <input type="text" class="form-control" id="pwd" placeholder="Masukkan No. SIP / STR">
+                                <input type="text" class="form-control" id="pwd" placeholder="Masukkan No. SIB">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="pwd">Tempat Kerja :</label>
                                 <div class="col-sm-8"> 
-                                <input type="text" class="form-control" id="pwd" placeholder="Masukkan Alamat Kerja">
+                                <input type="text" class="form-control" id="pwd" placeholder="Masukkan Alamat Praktek Perorangan">
                                 </div>
                             </div>
 
@@ -64,13 +64,13 @@
 
                             <!-- COMPONENT START -->
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="pwd">Scan SIP / STR</label>
+                                <label class="control-label col-sm-2" for="pwd">Scan SIB / STR</label>
                                 <div class="col-sm-8">
                                     <div class="input-group input-file" name="Fichier1">
                                         <span class="input-group-btn">
                                             <button class="btn btn-default btn-choose" type="button">Pilih</button>
                                         </span>
-                                        <input type="text" class="form-control" placeholder='Upload Scan SIP / STR yang berlaku ' />
+                                        <input type="text" class="form-control" placeholder='Upload Scan SIB / STR yang berlaku ' />
                                         <span class="input-group-btn">
                                             <button class="btn btn-warning btn-reset" type="button">Reset</button>
                                         </span>
@@ -137,7 +137,6 @@
                     </div>
                 </div>
  
-
 
 
 

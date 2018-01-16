@@ -65,7 +65,10 @@
     </div>
   </div> 
 
-    <?php include('SIP_dokter.php');?>
+
+        <div class="container">
+                    <?php include('SIKP_okupasiterapis.php');?>
+        </div>
 
     </body>
 </html>
